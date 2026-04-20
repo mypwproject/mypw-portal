@@ -13,12 +13,12 @@ export const Route = createFileRoute("/")({
 });
 
 const tiles = [
-  { name: "CODA", url: "https://Coda.mypw.pw", color: "bg-tile-1", description: "All in one free code editor" },
-  { name: "HASHY", url: "https://Hashy.mypw.pw", color: "bg-tile-2", description: "Hash anything Securely" },
-  { name: "LINKSHRINK", url: "https://Linkshrink.mypw.pw", color: "bg-tile-3", description: "Comprehensive URL shortener" },
-  { name: "MYBMI", url: "https://bmi.mypw.pw", color: "bg-tile-4", description: "Body Mass Calculator" },
-  { name: "QRcode maker", url: "https://Qrcode.mypw.pw", color: "bg-tile-5", description: "QRcode maker tools" },
-  { name: "netspeed", url: "https://Netspeed.mypw.pw", color: "bg-tile-6", description: "Internet speed test and more" },
+  { name: "CODA", url: "https://Coda.mypw.pw", color: "bg-tile-1", description: "All in one free code editor", descriptionAr: "محرر أكواد مجاني شامل" },
+  { name: "HASHY", url: "https://Hashy.mypw.pw", color: "bg-tile-2", description: "Hash anything Securely", descriptionAr: "تشفير أي شيء بأمان" },
+  { name: "LINKSHRINK", url: "https://Linkshrink.mypw.pw", color: "bg-tile-3", description: "Comprehensive URL shortener", descriptionAr: "اختصار الروابط الشامل" },
+  { name: "MYBMI", url: "https://bmi.mypw.pw", color: "bg-tile-4", description: "Body Mass Calculator", descriptionAr: "حاسبة كتلة الجسم" },
+  { name: "QRcode maker", url: "https://Qrcode.mypw.pw", color: "bg-tile-5", description: "QRcode maker tools", descriptionAr: "أداة إنشاء رمز الاستجابة السريعة" },
+  { name: "netspeed", url: "https://Netspeed.mypw.pw", color: "bg-tile-6", description: "Internet speed test and more", descriptionAr: "اختبار سرعة الإنترنت والمزيد" },
 ];
 
 function Index() {
@@ -35,6 +35,9 @@ function Index() {
           </span>
           <span className="text-sm md:text-base text-white/70 font-medium">
             {tile.description}
+          </span>
+          <span dir="rtl" lang="ar" className="text-sm md:text-base text-white/60 font-medium">
+            {tile.descriptionAr}
           </span>
           <span className="absolute bottom-4 text-xs md:text-sm text-white/40 group-hover:text-white/70 transition-colors">
             {tile.url.replace("https://", "")}
