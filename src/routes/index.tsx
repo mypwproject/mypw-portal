@@ -36,7 +36,7 @@ function Index() {
           <span className="text-sm md:text-base text-white/70 font-medium">
             {tile.description}
           </span>
-          <span dir="rtl" lang="ar" className="text-sm md:text-base text-white/60 font-medium">
+          <span dir="rtl" lang="ar" className="font-tajawal text-base md:text-lg text-white/70 font-light tracking-wide">
             {tile.descriptionAr}
           </span>
           <span className="absolute bottom-4 text-xs md:text-sm text-white/40 group-hover:text-white/70 transition-colors">
