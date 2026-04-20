@@ -15,7 +15,7 @@ export const Route = createFileRoute("/")({
 const tiles = [
   { name: "CODA", url: "https://Coda.mypw.pw", color: "bg-tile-1", description: "All in one free code editor", descriptionAr: "محرر أكواد مجاني شامل" },
   { name: "HASHY", url: "https://Hashy.mypw.pw", color: "bg-tile-2", description: "Hash anything Securely", descriptionAr: "تشفير أي شيء بأمان" },
-  { name: "LINKSHRINK", url: "https://Linkshrink.mypw.pw", color: "bg-tile-3", description: "Comprehensive URL shortener", descriptionAr: "اختصار الروابط الشامل" },
+  { name: "LINKSHRINK", url: "https://Linkshrink.mypw.pw", color: "bg-tile-3", description: "Comprehensive URL shortener", descriptionAr: "مختصر الروابط الشامل" },
   { name: "MYBMI", url: "https://bmi.mypw.pw", color: "bg-tile-4", description: "Body Mass Calculator", descriptionAr: "حاسبة كتلة الجسم" },
   { name: "QRcode maker", url: "https://Qrcode.mypw.pw", color: "bg-tile-5", description: "QRcode maker tools", descriptionAr: "أداة إنشاء رمز الاستجابة السريعة" },
   { name: "netspeed", url: "https://Netspeed.mypw.pw", color: "bg-tile-6", description: "Internet speed test and more", descriptionAr: "اختبار سرعة الإنترنت والمزيد" },
