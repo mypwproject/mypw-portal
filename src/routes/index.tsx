@@ -4,7 +4,11 @@ export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
       { title: "mypw.pw — Your Digital Hub" },
-      { name: "description", content: "Access all your tools in one place — CODA, HASHY, LINKSHRINK, MYBMI, QRcode Maker, and Netspeed." },
+      {
+        name: "description",
+        content:
+          "Access all your tools in one place — CODA, HASHY, LINKSHRINK, MYBMI, QRcode Maker, and Netspeed.",
+      },
       { property: "og:title", content: "mypw.pw — Your Digital Hub" },
       { property: "og:description", content: "Access all your tools in one place." },
     ],
@@ -13,12 +17,48 @@ export const Route = createFileRoute("/")({
 });
 
 const tiles = [
-  { name: "CODA", url: "https://Coda.mypw.pw", color: "bg-tile-1", description: "All in one free code editor", descriptionAr: "محرر أكواد مجاني شامل" },
-  { name: "HASHY", url: "https://Hashy.mypw.pw", color: "bg-tile-2", description: "Hash anything Securely", descriptionAr: "تشفير أي شيء بأمان" },
-  { name: "LINKSHRINK", url: "https://Linkshrink.mypw.pw", color: "bg-tile-3", description: "Comprehensive URL shortener", descriptionAr: "مختصر الروابط الشامل" },
-  { name: "Morph", url: "https://json.mypw.pw", color: "bg-tile-4", description: "Transform raw data into readable structure", descriptionAr: "تنسيق احترافي لبيانات المطورين بضغطة واحدة" },
-  { name: "QRcode maker", url: "https://Qrcode.mypw.pw", color: "bg-tile-5", description: "QRcode maker tools", descriptionAr: "أداة إنشاء رمز الاستجابة السريعة" },
-  { name: "netspeed", url: "https://Netspeed.mypw.pw", color: "bg-tile-6", description: "Internet speed test and more", descriptionAr: "اختبار سرعة الإنترنت والمزيد" },
+  {
+    name: "CODA",
+    url: "https://Coda.mypw.pw",
+    color: "bg-tile-1",
+    description: "All in one free code editor",
+    descriptionAr: "محرر أكواد مجاني شامل",
+  },
+  {
+    name: "HASHY",
+    url: "https://Hashy.mypw.pw",
+    color: "bg-tile-2",
+    description: "Hash anything Securely",
+    descriptionAr: "تشفير أي شيء بأمان",
+  },
+  {
+    name: "LINKSHRINK",
+    url: "https://Linkshrink.mypw.pw",
+    color: "bg-tile-3",
+    description: "Comprehensive URL shortener",
+    descriptionAr: "مختصر الروابط الشامل",
+  },
+  {
+    name: "Morph",
+    url: "https://json.mypw.pw",
+    color: "bg-tile-4",
+    description: "Transform raw data into readable structure",
+    descriptionAr: "تنسيق احترافي لبيانات المطورين بضغطة واحدة",
+  },
+  {
+    name: "QRcode maker",
+    url: "https://Qrcode.mypw.pw",
+    color: "bg-tile-5",
+    description: "QRcode maker tools",
+    descriptionAr: "أداة إنشاء رمز الاستجابة السريعة",
+  },
+  {
+    name: "netspeed",
+    url: "https://Netspeed.mypw.pw",
+    color: "bg-tile-6",
+    description: "Internet speed test and more",
+    descriptionAr: "اختبار سرعة الإنترنت والمزيد",
+  },
 ];
 
 function Index() {
@@ -33,10 +73,12 @@ function Index() {
           <span className="text-2xl md:text-4xl font-black tracking-tight text-white drop-shadow-[0_2px_8px_rgba(0,0,0,0.4)] group-hover:scale-110 transition-transform duration-300">
             {tile.name}
           </span>
-          <span className="text-sm md:text-base text-white/70 font-medium">
-            {tile.description}
-          </span>
-          <span dir="rtl" lang="ar" className="font-tajawal text-base md:text-lg text-white/70 font-light tracking-wide">
+          <span className="text-sm md:text-base text-white/70 font-medium">{tile.description}</span>
+          <span
+            dir="rtl"
+            lang="ar"
+            className="font-tajawal text-base md:text-lg text-white/70 font-light tracking-wide"
+          >
             {tile.descriptionAr}
           </span>
           <span className="absolute bottom-4 text-xs md:text-sm text-white/40 group-hover:text-white/70 transition-colors">
