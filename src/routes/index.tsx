@@ -16,7 +16,7 @@ const tiles = [
   { name: "CODA", url: "https://Coda.mypw.pw", color: "bg-tile-1", description: "All in one free code editor", descriptionAr: "محرر أكواد مجاني شامل" },
   { name: "HASHY", url: "https://Hashy.mypw.pw", color: "bg-tile-2", description: "Hash anything Securely", descriptionAr: "تشفير أي شيء بأمان" },
   { name: "LINKSHRINK", url: "https://Linkshrink.mypw.pw", color: "bg-tile-3", description: "Comprehensive URL shortener", descriptionAr: "مختصر الروابط الشامل" },
-  { name: "Morph", url: "https://bmi.mypw.pw", color: "bg-tile-4", description: "Transform raw data into readable structure", descriptionAr: "تنسيق احترافي لبيانات المطورين بضغطة واحدة" },
+  { name: "Morph", url: "https://json.mypw.pw", color: "bg-tile-4", description: "Transform raw data into readable structure", descriptionAr: "تنسيق احترافي لبيانات المطورين بضغطة واحدة" },
   { name: "QRcode maker", url: "https://Qrcode.mypw.pw", color: "bg-tile-5", description: "QRcode maker tools", descriptionAr: "أداة إنشاء رمز الاستجابة السريعة" },
   { name: "netspeed", url: "https://Netspeed.mypw.pw", color: "bg-tile-6", description: "Internet speed test and more", descriptionAr: "اختبار سرعة الإنترنت والمزيد" },
 ];
