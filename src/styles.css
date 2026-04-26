@@ -99,19 +99,29 @@
   font-family: "Fira Code", monospace;
 }
 @utility font-orbitron {
-  font-family: "Orbitron", sans-serif;
+  font-family: "Outfit", sans-serif;
+  font-weight: 700;
+}
+@utility font-poppins {
+  font-family: "Poppins", sans-serif;
+}
+@utility font-outfit {
+  font-family: "Outfit", sans-serif;
 }
 @utility font-righteous {
-  font-family: "Righteous", cursive;
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
 }
 @utility font-fredoka {
-  font-family: "Fredoka One", cursive;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
 }
 @utility font-press-start {
-  font-family: "Press Start 2P", cursive;
+  font-family: "Outfit", sans-serif;
+  font-weight: 800;
 }
 @utility font-rajdhani {
-  font-family: "Rajdhani", sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 @utility font-tajawal {
   font-family: "Tajawal", sans-serif;

@@ -52,7 +52,7 @@ export const Route = createRootRoute({
       },
       {
         rel: "stylesheet",
-        href: "https://fonts.googleapis.com/css2?family=Fira+Code:wght@700&family=Orbitron:wght@800&family=Righteous&family=Fredoka+One&family=Press+Start+2P&family=Rajdhani:wght@700&family=Tajawal:wght@300;500;700&display=swap",
+        href: "https://fonts.googleapis.com/css2?family=Fira+Code:wght@700&family=Outfit:wght@600;700;800&family=Poppins:wght@400;500;600;700&family=Tajawal:wght@300;500;700&display=swap",
       },
     ],
   }),
